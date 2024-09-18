@@ -16,7 +16,7 @@ def about():
     return "About"
 
 
-@app.route("/api/description", methods=["GET"])
+@app.route("/description", methods=["GET"])
 def get_description():
     html_content = """
     <p><strong>Shiba Inu</strong> adalah ras anjing kecil yang berasal dari <i>Jepang</i>, terkenal dengan penampilan yang mirip dengan serigala dan sifat yang ceria. Shiba Inu sepia adalah variasi warna yang menonjol dengan nuansa coklat kekuningan yang lembut.</p>
